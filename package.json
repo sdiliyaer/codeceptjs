@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "codeceptjs": "^2.6.4",
+    "webdriverio": "^6.1.11"
+  }
 }

@@ -1,0 +1,16 @@
+17:53:19.464 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "args": [
+      "--disable-gpu",
+      "--no-sandbox"
+    ]
+  }
+}
+17:53:19.466 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a) on port 39316
+Only local connections are allowed.
+[1589234002.768][WARNING]: Timed out connecting to Chrome, retrying...
+17:53:24.802 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+17:53:25.026 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session ff1b5de83c11dc69439820884e0aad77 (org.openqa.selenium.chrome.ChromeDriverService)
+17:53:33.092 INFO [ActiveSessions$1.onStop] - Removing session ff1b5de83c11dc69439820884e0aad77 (org.openqa.selenium.chrome.ChromeDriverService)
